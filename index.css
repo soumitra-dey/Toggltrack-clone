@@ -64,6 +64,9 @@
     display: flex;
     list-style: none;
 }
+#afterlogo a:hover{
+    color: rgb(229,124,216);
+}
 #navbarlist>li{
     padding: 10px 0px 10px 35px;
     font-size: 16px;
@@ -148,6 +151,9 @@
     width: 30vw;
     margin-bottom: 30px;
 }
+#sec2_body>input:focus{
+    background-color: rgb(252,229,216);
+}
 #sec2_btn{
     padding: 15px 30px 15px 30px;
     border-radius: 25px;
@@ -157,6 +163,9 @@
     border: 0px;
     color: white;
     margin-right: 25px;
+}
+#sec2_signup>button:hover{
+    background-color: rgb(91, 38, 116);
 }
 #sec2_signup{
     display: flex;
@@ -206,7 +215,7 @@
 #rightportion{
     /* margin-left: 150px; */
     position: absolute;
-    left: 50vw;
+    left: 60vw;
     top: 400px;
 }
 #rightportion>:nth-child(2){
@@ -231,6 +240,10 @@
     width: 40vw;
     font-size: 0.8rem;
     color: rgb(252,229,216);
+}
+#sec2_sortdetails>a{
+    color: rgb(252,229,216);
+    text-decoration: underline rgb(229,124,216);
 }
 #sec2_acvievement{
     width: 90%;
