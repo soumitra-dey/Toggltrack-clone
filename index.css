@@ -308,6 +308,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0px 0px 0px;
     font-size: 14px;
+    color: rgb(129,113,135);
 }
 .submenu>div>div{
     margin-left: 10px;
@@ -319,6 +320,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+    color: rgb(129,113,135);
 }
 #pro_submenu_left>:last-child{
     width: 55vw;
@@ -338,6 +340,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+    color: rgb(129,113,135);
 }
 #track_anywhere{
     width: 30vw;
@@ -360,6 +363,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0px 0px 0px;
     font-size: 14px;
+    color: rgb(129,113,135);
 }
 #track_anywhere>div>div{
     margin-left: 10px;
@@ -391,6 +395,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+    color: rgb(129,113,135);
 }
 .submenulist2{
     width: 80vw;
@@ -413,6 +418,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0px 0px 0px;
     font-size: 14px;
+    color: rgb(129,113,135);
 }
 .submenulist2>div>div{
     margin-left: 10px;
@@ -471,6 +477,222 @@
     margin-top: 20px;
 
 }
+/* body */
+#body1{
+    width: 100vw;
+    background-color: rgb(255,243,237);
+    /* border: 1px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body1>:first-child{
+    margin: auto;
+    font-size: 2.5rem;
+    width: 60vw;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+#body1>:first-child>span{
+    color: rgb(229,124,216);
+}
+#body1_second{
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+#body1_second>div{
+    padding: 25px;
+}
+#body1_second>div>:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(229,124,216);
+}
+#body1_second>div>:nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+    width: 80%;
+    color: rgb(65,42,76);
+}
+#body1_second>div>:nth-child(3){
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229,124,216);
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+#body1_second>div>:nth-child(3):hover{
+    background-color: #582370;
+}
+#body1_second>div>:nth-child(4){
+    width: 75%;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+#body1_second>div>:nth-child(5){
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(65,42,76);
+}
+#body1_second>div>:nth-child(6)>a{
+    font-size: 14px;
+    color: rgb(58, 40, 40);
+}
+#body1_second>div>:nth-child(6)>a:hover{
+    color: rgb(229,124,216);
+}
+#body1_second>:first-child{
+    background-color: rgb(250,229,247);
+}
+#body1_second>:last-child{
+    background-color: rgb(252,229,216);
+}
+#body1_third{
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+#body1_third>div{
+    padding: 20px;
+}
+#body1_third>div>:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(229,124,216);
+}
+#body1_third>div>:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(71,42,76);
+    height: 15vh;
+}
+#body1_third>div>:nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(71,42,76);
+    margin-top: 25px;
+}
+#body1_third>:nth-child(1){
+    background-color: rgb(252,229,216);
+}
+#body1_third>:nth-child(2){
+    background-color: rgb(255,235,189);
+}
+#body1_third>:nth-child(3){
+    background-color: rgb(250,229,247);
+}
+#doublecolor{
+    width: 0px;
+	height: 0px;
+	border-right: 100vw solid rgb(255,243,237);
+	border-bottom: 30vh solid rgb(44,19,56);
+}
+#doublecolor>img{
+    width: 30vw;
+    position: absolute;
+    left: 65vw;
+}
+#body2{
+    width: 100vw;
+    background-color: rgb(44,19,56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body2>div{
+    width: 80vw;
+    margin: auto;
+    padding-top: 50px;
+}
+#body2>div>:first-child{
+    width: 52vw;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255,243,237);
+    margin-bottom: 50px;
+}
+#body2>div>:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+#body2>div>:nth-child(2)>div{
+    padding: 30px;
+    background-color: rgb(255,243,237);
+}
+#body2_item>div>:nth-child(1){
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+#body2_item>div>:nth-child(2){
+    text-align: center;
+    font-size: 14px;
+    color: rgb(86,66,96);
+    margin-bottom: 20px;
+}
+#body2_item>div>:nth-child(3){
+    text-align: center;
+    font-size: 14px;
+    color: rgb(229,124,216);
+}
+#body2_item span{
+    color: rgb(229,124,216);
+}
+#body2_item>:nth-child(2){
+    position: relative;
+    top: 50px;
+}
+#body2_item>:nth-child(3){
+    position: relative;
+    top: 100px;
+}
+#body2_logo{
+    width: 70%;
+    margin-top: 150px;
+}
+#body2_demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    font-size: 14px;
+}
+#body2_demo>:first-child{
+    width: 200px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229,124,216);
+    border-radius: 25px;
+}
+#body2_demo>:last-child{
+    color: rgb(229,124,216);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
 @media all and (max-width:800px){
     #rightportion{
         position: relative;
@@ -507,5 +729,33 @@
     }
     #sec2_body>input{
         width: 90%;
+    }
+    #body1_second{
+        grid-template-columns: repeat(1,1fr);
+        width: 90vw;
+    }
+    #body1_third{
+        grid-template-columns: repeat(1,1fr);
+        width: 90vw;
+    }
+    #body2>div>:first-child{
+        width: 80vw;
+    }
+    #body2>div>:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    #body2_item>:nth-child(2){
+        position: static;
+    }
+    #body2_item>:nth-child(3){
+        position: static;
+    }
+    #body2_logo{
+        width: 80vw;
+    }
+    #body2_logo>img{
+        width: 100%;
     }
 }
