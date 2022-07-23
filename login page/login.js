@@ -1,14 +1,3 @@
-let btn=document.querySelector("#body3_btn");
-let player=document.querySelector(".videolink");
-let close=document.querySelector(".close")
-btn.addEventListener("click",function(){
-    player.classList.add("playvideo")
-})
-close.addEventListener("click", function(){
-    player.classList.remove("playvideo")
-})
-
-
 let menu=document.querySelector(".rightbar")
 let bar1=document.querySelector(".navbarlist")
 let bar2=document.querySelector(".navbarlist2")
@@ -28,7 +17,6 @@ menu.addEventListener("click", function(event){
         bar1.classList.remove("mainmenu")
         navbar.classList.remove("afterclick");
         bar2.classList.remove("mainmenu")
-
         ind=0
     }
 })
@@ -105,5 +93,24 @@ product2.addEventListener("click", function(event){
         product2_submenu.classList.remove("pro2_submenu_on");
         navbar.classList.remove("afterclick");
         ind4=0
+    }
+})
+
+let user_email=document.querySelector("#email");
+let user_pass=document.querySelector("#password");
+let data_email=localStorage.getItem("username");
+let data_pass=localStorage.getItem("password");
+let alert_msg=document.querySelector("#messege")
+console.log(data_email,data_pass)
+
+document.querySelector("#btn").addEventListener("click", function(){
+    if (data_email=null || data_pass==null) {
+        alert_msg.innerText="The email/password combination used was not found on the system."
+    }else if(user_email.value=="" || user_pass.value==""){
+        alert_msg.innerText="Please fill all"
+    } else if (localStorage.getItem("username") != user_email.value || data_pass != user_pass.value) {
+        alert_msg.innerText="Wrong email or password"
+    } else {
+        alert_msg.innerText="Login successful"
     }
 })

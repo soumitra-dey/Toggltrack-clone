@@ -58,25 +58,28 @@
 #logo>img{
     width: 170px;
 }
+.rightbar{
+    display: none;
+}
 #afterlogo{
     height: 35px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-#navbarlist{
+.navbarlist{
     display: flex;
     list-style: none;
 }
 #afterlogo a:hover{
     color: rgb(229,124,216);
 }
-#navbarlist>li{
+.navbarlist>li{
     padding: 10px 0px 10px 35px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#navbarlist>li>a{
+.navbarlist>li>a{
     text-decoration: none;
     color: white;
 }
@@ -170,6 +173,7 @@
 }
 #sec2_signup>button:hover{
     background-color: rgb(91, 38, 116);
+    cursor: pointer;
 }
 #sec2_signup{
     display: flex;
@@ -1017,6 +1021,108 @@
 
 
 @media all and (max-width:800px){
+    #top{
+        display: none;
+    }
+    #sec1{
+        display: flex;
+        background-color: rgb(252,229,216);
+        border: 1px solid rgb(252,229,216);
+    }
+    .rightbar{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50vw;
+    }
+    .rightbar>div{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 2px;
+    }
+    #afterlogo{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbarlist{
+        display: none;
+    }
+    .navbarlist.mainmenu{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(252,229,216);
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        top: 99px;
+        height: 100vh;
+    }
+    .navbarlist>li>a{
+        color: rgb(65, 65, 65);
+    }
+    .navbarlist2{
+        display: none;
+    }
+    .navbarlist2.mainmenu{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(252,229,216);
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        top: 250px;
+    }
+    .navbarlist2>li{
+        margin-left: 25px;
+        
+    }
+    .navbarlist2>li>a{
+        color: rgb(65, 65, 65);
+    }
+    .navbarlist2>:nth-child(2){
+        display: none;
+    }
+    .navbarlist2>:nth-child(3){
+        text-align: center;
+    }
+    #navbarlist2_last{
+        background-color: rgb(229,124,216);
+        width: 20vw;
+        padding: 10px;
+        margin-left: 42vw;
+    }
+    #navbarlist2_last>a{
+        color: white;
+    }
+    .submenubox.pro_submenu_on{
+        top: 50px;
+        z-index: 50;
+        border: 1px solid;
+
+    }
+    .submenu{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #pro_submenu_line{
+        display: none;
+    }
+    .submenubox{
+        flex-direction: column;
+    }
+    .submenu3.car_submenu_on{
+        top: 150px;
+        z-index: 60;
+        border: 1px solid;
+    }
+    .submenulist2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .submenu2.why_submenu_on{
+        top: 110px;
+        z-index: 70;
+        border: 1px solid;
+        flex-direction: column;
+    }
     #rightportion{
         position: relative;
         left: 15vw;
